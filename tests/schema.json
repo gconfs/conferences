@@ -1,0 +1,278 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "https://conferences.gconfs.eu/example.json",
+  "type": "object",
+  "required": [
+    "title"
+  ],
+  "properties": {
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Bien Démarrer Son Projet"
+      ]
+    },
+    "short": {
+      "$id": "/properties/short",
+      "type": "string",
+      "title": "The Short Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "BDSP"
+      ]
+    },
+    "start": {
+      "$id": "/properties/start",
+      "type": "string",
+      "title": "The Start Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
+      "examples": [
+        "31/12/2018 - 20:00"
+      ]
+    },
+    "end": {
+      "$id": "/properties/end",
+      "type": "string",
+      "title": "The End Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
+      "examples": [
+        "31/12/2018 - 23:00"
+      ]
+    },
+    "respo": {
+      "$id": "/properties/respo",
+      "type": "string",
+      "title": "The Respo Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "horgix",
+        "mevouc"
+      ]
+    },
+    "speakers": {
+      "$id": "/properties/speakers",
+      "type": "array",
+      "items": {
+        "$id": "/properties/speakers/items",
+        "type": "string",
+        "title": "The 0 Schema.",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "horgix",
+          "mevouc"
+        ]
+      }
+    },
+    "abstract": {
+      "$id": "/properties/abstract",
+      "type": "string",
+      "title": "The Abstract Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Cette conférence bla bla bla"
+      ]
+    },
+    "event_form": {
+      "$id": "/properties/event_form",
+      "type": "object",
+      "properties": {
+        "description": {
+          "$id": "/properties/event_form/properties/description",
+          "type": "string",
+          "title": "The Description Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Conf\u00e9rence adress\u00e9e aux sups : bien d\u00e9marrer son projet"
+          ]
+        },
+        "expected_public": {
+          "$id": "/properties/event_form/properties/expected_public",
+          "type": "object",
+          "properties": {
+            "ionis": {
+              "$id": "/properties/event_form/properties/expected_public/properties/ionis",
+              "type": "integer",
+              "title": "The Ionis Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                300
+              ]
+            },
+            "members": {
+              "$id": "/properties/event_form/properties/expected_public/properties/members",
+              "type": "integer",
+              "title": "The Members Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                10
+              ]
+            },
+            "external": {
+              "$id": "/properties/event_form/properties/expected_public/properties/external",
+              "type": "integer",
+              "title": "The External Schema.",
+              "description": "An explanation about the purpose of this instance.",
+              "default": 0,
+              "examples": [
+                5
+              ]
+            }
+          }
+        }
+      }
+    },
+    "video": {
+      "$id": "/properties/video",
+      "type": "object",
+      "properties": {
+        "streamed": {
+          "$id": "/properties/video/properties/streamed",
+          "type": "boolean",
+          "title": "The Streamed Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "stream_url": {
+          "$id": "/properties/video/properties/stream_url",
+          "type": "string",
+          "title": "The Stream_url Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://youtube.com/foo"
+          ]
+        },
+        "recorded": {
+          "$id": "/properties/video/properties/recorded",
+          "type": "boolean",
+          "title": "The Recorded Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": false,
+          "examples": [
+            true
+          ]
+        },
+        "record_url": {
+          "$id": "/properties/video/properties/record_url",
+          "type": "string",
+          "title": "The Record_url Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://youtube.com/bar"
+          ]
+        }
+      }
+    },
+    "git_repo": {
+      "$id": "/properties/git_repo",
+      "type": "string",
+      "title": "The Git_repo Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "bdsp-2018"
+      ]
+    },
+    "location": {
+      "$id": "/properties/location",
+      "type": "object",
+      "properties": {
+        "type": {
+          "$id": "/properties/location/properties/type",
+          "type": "string",
+          "enum": [
+            "EpitaVJ",
+            "EpitaKB",
+            "Custom"
+          ],
+          "title": "The Type Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "EpitaKB"
+          ]
+        },
+        "room": {
+          "$id": "/properties/location/properties/room",
+          "type": "string",
+          "title": "The Room Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Amphi4"
+          ]
+        }
+      }
+    },
+    "handson": {
+      "$id": "/properties/handson",
+      "type": "boolean",
+      "title": "The Handson Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": false,
+      "examples": [
+        true
+      ]
+    },
+    "handson_details": {
+      "$id": "/properties/handson_details",
+      "type": "object",
+      "properties": {
+        "start": {
+          "$id": "/properties/handson_details/properties/start",
+          "type": "string",
+          "title": "The Start Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "31/12/2018 - 23:00"
+          ]
+        },
+        "end": {
+          "$id": "/properties/handson_details/properties/end",
+          "type": "string",
+          "title": "The End Schema.",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "01/01/2019 - 02:00"
+          ]
+        },
+        "rooms": {
+          "$id": "/properties/handson_details/properties/rooms",
+          "type": "array",
+          "items": {
+            "$id": "/properties/handson_details/properties/rooms/items",
+            "type": "string",
+            "title": "The 0 Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "SM-Cisco"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
