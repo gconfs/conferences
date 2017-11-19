@@ -1,5 +1,4 @@
 sudo: required
-
 language: python
 
 services:
@@ -10,3 +9,5 @@ script:
 
 notifications:
   email: false
+  slack:
+    secure: jIkpjlWfmTwzbW/LmWjTWnvVc2T0uoaxPGbc/2tDQxV0qvL/jPCzQE6pZkJ6BuUDgJQPls0kE8o/7iC7BbpxsAMuYg7fBD+VX7r46lSgIDHofZxfQRTFXr9Z2/8FXmgpZsClOLc2Iz/gnUEskWvFCKZBLjVrb5VYHCEa4o18Fzi9z/FhvdW3HlsjuSF1sxgqOdPEa6oROHNBUvW2s5daUvQEqo6ptCIxSD6i2isth3RPTisV97kqqdhhg64/cTGyaT7q9yzlsChjgDsnRLpJjFg3bvAsaflGA0aI/GQgCKt2Hb4u9k6gDir1kOa7xTvLfGSnBCjcGnytgYeVoefDh2ce6Emq0pwjh/KdaYna7/CHyCfU0rvYtU4hjgB8ThmfZgH/urBIyzV41uVXfYYo2bWMV6AwGHZ/7dGMXHqiZbfAfeD7pK1TRpnv7sjdFFaJOVAF4m3gGLNVRuYpSiOrpasj/m5K5QxJygIfse1pjyr4SVnIcLF9g0ZM9wbIbHOf2aR6hn9gziHYCXHRPoS+kVf6xvvCEw3ggV40sEudzUdm0bZbuVLTRy8X9W1PoBWtQSMHgtMAuYwn1OYNgpzwaEjm7ufsxY7WPCxEZ0nXhG8yBqmA7COBm0Stwfc8q2+DRXpXUmCZvW5nFFnKoVINtmOKA4/G/Qy9/NnwPTdx2yE=
