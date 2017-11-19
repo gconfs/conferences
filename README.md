@@ -1,4 +1,4 @@
-Bla
+[![Build Status](https://travis-ci.org/gconfs/conferences.svg?branch=master)](https://travis-ci.org/gconfs/conferences)
 
 # Validation / Tests
 
