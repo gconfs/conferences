@@ -1,0 +1,12 @@
+sudo: required
+
+language: python
+
+services:
+  - docker
+
+script:
+  - make validate
+
+notifications:
+  email: false
