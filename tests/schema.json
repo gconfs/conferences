@@ -201,8 +201,8 @@
           "$id": "/properties/location/properties/type",
           "type": "string",
           "enum": [
-            "EpitaVJ",
-            "EpitaKB",
+            "Epita VJ",
+            "Epita KB",
             "Custom"
           ],
           "title": "The Type Schema.",
