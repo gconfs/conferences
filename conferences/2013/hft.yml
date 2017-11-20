@@ -1,3 +1,4 @@
+---
 title:  "High Frequency Trading"
 subtitle: "Retour d'expérience d'un Epitéen"
 short:  "HFT"
@@ -26,6 +27,6 @@ video:
   record_url: "https://www.youtube.com/watch?v=mhGAuNy2lso"
 #git_repo: "bdsp-2018" # On github.com/gconfs-conferences
 location:
-  type: EpitaKB
-  room: Amphi1
+  type: "Epita KB"
+  room: "Amphi 1"
 handson:  False
