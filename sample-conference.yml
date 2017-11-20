@@ -1,3 +1,4 @@
+---
 title:  "Bien Démarrer Son Projet"
 short:  "BDSP"
 start:  "31/12/2018 - 20:00"
@@ -23,12 +24,12 @@ video:
   record_url: "https://youtube.com/bar"
 git_repo: "bdsp-2018" # On github.com/gconfs-conferences
 location:
-  type: EpitaKB # May also be EpitaVJ or Custom
-  room: Amphi4
+  type: "Epita KB" # May also be "Epita VJ" or "Custom"
+  room: "Amphi 4"
 handson:  True
 handson_details:
   start:  "31/12/2018 - 23:00"
   end:    "01/01/2019 - 02:00"
   rooms:
-    - SM-Cisco
-    - SM-Pasteur
+    - "SM Cisco"
+    - "SM Pasteur"
