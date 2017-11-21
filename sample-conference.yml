@@ -5,12 +5,12 @@ start:  "31/12/2018 - 20:00"
 end:    "31/12/2018 - 23:00"
 respo:  "horgix"
 speakers:
-  - "horgix"
-  - "mevouc"
+  - "Alexis 'Horgix' Chotard'"
+  - "Meven 'Mevouc' Courouble"
 abstract: >
-  Cette conférence bla
+  "Cette conférence bla
   bla
-  bla
+  bla"
 event_form:
   description:  "Conférence adressée aux sups : bien démarrer son projet"
   expected_public:
@@ -18,10 +18,10 @@ event_form:
     members:  10
     external: 5
 video:
-  streamed: True
-  stream_url: "https://youtube.com/foo"
-  recorded: True
-  record_url: "https://youtube.com/bar"
+  streamed: True                        # True / False
+  stream_url: "https://youtube.com/foo" # May be "null" if unknown
+  recorded: True                        # True / False
+  record_url: "https://youtube.com/bar" # Required if 'recorded' is True
 location:
   type: "Epita KB" # May also be "Epita VJ" or "Custom"
   rooms:
