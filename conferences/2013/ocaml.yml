@@ -1,0 +1,52 @@
+---
+title:  "OCaml"
+short:  None
+start:  "11/10/2013 - 20:00"
+end:    "11/10/2013 - 23:30"
+respo:  "philgekni"
+speakers:
+  - "Philémon 'PhilGekni' Gardet"
+abstract: >
+  "Pour la première conférence à Villejuif de l'année, GConfs a le plaisir de
+  vous présenter... la conférence OCaml ! Philémon \"PhilGekni\" Gardet vous
+  présentera la programmation orientée objet ainsi que l'utilisation de la SDL,
+  le tout précédé par quelques rappels.
+
+  La conférence sera suivie d'un TP assisté, avec la participation de l'équipe
+  VJN[1] pour vous proposer café, crêpes et boissons fraîches ! Evolutek[2]
+  sera également au rendez-vous pour vous proposer un barbecue avant et après
+  la conférence.
+
+  Cette soirée s'adresse principalement aux Info-Spés, afin de leur permettre
+  de {commencer, continuer} sereinement leur projet d'OCR. Les Info-Sups sont
+  également les bienvenus et plusieurs sujets de TP seront disponibles.
+
+  Rendez vous à le Vendredi 11 Octobre à 20h à l'EPITA Villejuif, salle VA 204.
+
+  [1]: Association Villejuif Nights
+  [2]: Association de robotique de l'EPITA"
+event_form:
+  description: "Conférence sur la programmation en OCaml - Niveau Intermédiaire
+  ainsi que présentation de l’utilisation de la bibliothèque graphique SDL en
+  OCaml."
+  expected_public:
+    ionis:    300
+    members:  null # This difference didn't exist at that time
+    external: 5
+video:
+  streamed: False
+  recorded: False
+location:
+  type: "Epita VJ"
+  rooms:
+    - "VA 204"
+    - "VA 205"
+handson:  True
+handson_details:
+  start:  "11/10/2013 - 23:00"
+  end:    "12/10/2013 - 08:00"
+  rooms:
+    - "VA 302"
+    - "VA 303"
+    - "VA 306"
+    - "VA 311" # VJN
