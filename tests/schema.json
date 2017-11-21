@@ -3,9 +3,6 @@
   "$schema": "http://json-schema.org/draft-06/schema#",
   "$id": "https://conferences.gconfs.eu/example.json",
   "type": "object",
-  "required": [
-    "title"
-  ],
   "properties": {
     "title": {
       "$id": "/properties/title",
@@ -19,7 +16,7 @@
     },
     "short": {
       "$id": "/properties/short",
-      "type": "string",
+      "type": ["string", "null"],
       "title": "The Short Schema.",
       "description": "An explanation about the purpose of this instance.",
       "default": "",
@@ -70,8 +67,8 @@
         "description": "An explanation about the purpose of this instance.",
         "default": "",
         "examples": [
-          "horgix",
-          "mevouc"
+          "Alexis 'Horgix' Chotard",
+          "Meven 'Mevouc' Courouble"
         ]
       }
     },
@@ -96,7 +93,7 @@
           "description": "An explanation about the purpose of this instance.",
           "default": "",
           "examples": [
-            "Conf\u00e9rence adress\u00e9e aux sups : bien d\u00e9marrer son projet"
+            "Conférence adressée aux sups : bien démarrer son projet"
           ]
         },
         "expected_public": {
@@ -181,16 +178,10 @@
             "https://youtube.com/bar"
           ]
         }
-      }
-    },
-    "git_repo": {
-      "$id": "/properties/git_repo",
-      "type": "string",
-      "title": "The Git_repo Schema.",
-      "description": "An explanation about the purpose of this instance.",
-      "default": "",
-      "examples": [
-        "bdsp-2018"
+      },
+      "required": [
+        "streamed",
+        "recorded"
       ]
     },
     "location": {
@@ -209,20 +200,27 @@
           "description": "An explanation about the purpose of this instance.",
           "default": "",
           "examples": [
-            "EpitaKB"
+            "Epita KB"
           ]
         },
-        "room": {
-          "$id": "/properties/location/properties/room",
-          "type": "string",
-          "title": "The Room Schema.",
-          "description": "An explanation about the purpose of this instance.",
-          "default": "",
-          "examples": [
-            "Amphi4"
-          ]
+        "rooms": {
+          "$id": "/properties/location/properties/rooms",
+          "type": "array",
+          "items": {
+            "$id": "/properties/location/properties/rooms/items",
+            "type": "string",
+            "title": "The 0 Schema.",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Amphi 4"
+            ]
+          }
         }
-      }
+      },
+      "required": [
+        "type"
+      ]
     },
     "handson": {
       "$id": "/properties/handson",
@@ -244,6 +242,7 @@
           "title": "The Start Schema.",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
+          "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
           "examples": [
             "31/12/2018 - 23:00"
           ]
@@ -254,6 +253,7 @@
           "title": "The End Schema.",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
+          "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
           "examples": [
             "01/01/2019 - 02:00"
           ]
@@ -268,11 +268,23 @@
             "description": "An explanation about the purpose of this instance.",
             "default": "",
             "examples": [
-              "SM-Cisco"
+              "SM Cisco"
             ]
           }
         }
       }
     }
-  }
+  },
+  "required": [
+    "title",
+    "short",
+    "start",
+    "end",
+    "respo",
+    "speakers",
+    "abstract",
+    "video",
+    "location",
+    "handson"
+  ]
 }
