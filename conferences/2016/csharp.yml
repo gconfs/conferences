@@ -17,11 +17,10 @@ event_form:
     ionis:    180
     members:  10
     external: 0
-#video:
+video:
 #  streamed: True
 #  stream_url: "https://youtube.com/foo"
-#  recorded: True
-#  record_url: "https://youtube.com/bar"
+  recorded: False # Actually it was recorded, but the sound was too bad :(
 location:
   type: "Epita VJ"
   room: "VA 208"
