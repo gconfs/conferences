@@ -22,7 +22,6 @@ video:
   stream_url: "https://youtube.com/foo"
   recorded: True
   record_url: "https://youtube.com/bar"
-git_repo: "bdsp-2018" # On github.com/gconfs-conferences
 location:
   type: "Epita KB" # May also be "Epita VJ" or "Custom"
   room: "Amphi 4"
