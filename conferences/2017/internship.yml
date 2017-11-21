@@ -1,0 +1,22 @@
+---
+title:  "Recherche de stage"
+start:  "04/05/2017 - 20:00"
+end:    "04/05/2017 - 22:00"
+respo:  "hellzy"
+speakers: null # ??
+abstract: null # ??
+event_form:
+  description:  "Conférence sur le thème de la recherche de stage"
+  expected_public:
+    ionis:    200
+    members:  5
+    external: 0
+video:
+  #streamed: True
+  #stream_url: "https://youtube.com/foo"
+  #recorded: True
+  #record_url: "https://youtube.com/bar"
+location:
+  type: "Epita KB"
+  room: "Amphi 3"
+handson:  False
