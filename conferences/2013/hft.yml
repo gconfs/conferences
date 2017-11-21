@@ -17,8 +17,8 @@ abstract: >
 event_form:
   description:  "Conférence sur le trading haute fréquence par un ancien Epita"
   expected_public:
-    ionis:    40
-    members:  5
+    ionis:    60
+    members:  null # This difference didn't exist at that time
     external: 5
 video:
   streamed: True
