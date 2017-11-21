@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/gconfs/conferences.svg?branch=master)](https://travis-ci.org/gconfs/conferences)
+[![Notifications](https://img.shields.io/badge/Notifications-gconfs.slack.com%20%2F%20Channel%20%23conferences-orange.svg)](https://gconfs.slack.com/messages/C82R8LU5S/)
 
 # Contributing
 
