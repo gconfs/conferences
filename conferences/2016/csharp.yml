@@ -1,0 +1,40 @@
+---
+title:  "C#"
+short:  null
+start:  "18/11/2016 - 18:30"
+end:    "18/11/2016 - 21:00"
+respo:  "turfu"
+speakers:
+  - "Martin 'reaper' Leydier"
+  - "Gabriel 'Hazriel' Bertini"
+  - "Yohann 'shepard' Léon"
+  - "Meven 'mevouc' Courouble"
+abstract: >
+  "TODO"
+event_form:
+  description:  "Conférence d'introduction au langage C# suivi d'un TP"
+  expected_public:
+    ionis:    180
+    members:  10
+    external: 0
+#video:
+#  streamed: True
+#  stream_url: "https://youtube.com/foo"
+#  recorded: True
+#  record_url: "https://youtube.com/bar"
+location:
+  type: "Epita VJ"
+  room: "VA 208"
+handson:  True
+handson_details:
+  start:  "18/11/2016 - 21:00"
+  end:    "19/11/2016 - 06:00"
+  rooms:
+    - "VA 105" # VJN ?
+    - "VA 204" # VJN ?
+    - "VA 311"
+    - "VA 302" # TP
+    - "VA 303" # TP
+    - "VA 304" # TP
+    - "VA 305" # TP
+    - "VA 306" # TP
