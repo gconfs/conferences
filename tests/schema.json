@@ -8,7 +8,7 @@
       "$id": "/properties/title",
       "type": "string",
       "title": "The Title Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Main title of the conference",
       "default": "",
       "examples": [
         "Bien Démarrer Son Projet"
@@ -18,7 +18,7 @@
       "$id": "/properties/short",
       "type": ["string", "null"],
       "title": "The Short Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Short name, to be used for long conference names",
       "default": "",
       "examples": [
         "BDSP"
@@ -28,7 +28,7 @@
       "$id": "/properties/start",
       "type": "string",
       "title": "The Start Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Date and time when the conference begins",
       "default": "",
       "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
       "examples": [
@@ -39,7 +39,7 @@
       "$id": "/properties/end",
       "type": "string",
       "title": "The End Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Date and time when the conference ends",
       "default": "",
       "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
       "examples": [
@@ -50,7 +50,7 @@
       "$id": "/properties/respo",
       "type": "string",
       "title": "The Respo Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Member responsible of the conference organization",
       "default": "",
       "examples": [
         "horgix",
@@ -64,7 +64,7 @@
         "$id": "/properties/speakers/items",
         "type": "string",
         "title": "The 0 Schema.",
-        "description": "An explanation about the purpose of this instance.",
+        "description": "Speaker for the conference",
         "default": "",
         "examples": [
           "Alexis 'Horgix' Chotard",
@@ -76,7 +76,7 @@
       "$id": "/properties/abstract",
       "type": "string",
       "title": "The Abstract Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Summary of the conference. To be used when it is announced",
       "default": "",
       "examples": [
         "Cette conférence bla bla bla"
@@ -90,7 +90,7 @@
           "$id": "/properties/event_form/properties/description",
           "type": "string",
           "title": "The Description Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "'Fiche event' informations",
           "default": "",
           "examples": [
             "Conférence adressée aux sups : bien démarrer son projet"
@@ -104,7 +104,7 @@
               "$id": "/properties/event_form/properties/expected_public/properties/ionis",
               "type": "integer",
               "title": "The Ionis Schema.",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "Number of Ionis students expected at the conference",
               "default": 0,
               "examples": [
                 300
@@ -114,7 +114,7 @@
               "$id": "/properties/event_form/properties/expected_public/properties/members",
               "type": ["integer", "null"],
               "title": "The Members Schema.",
-              "description": "An explanation about the purpose of this instance. This can be null since in 2013 there was no difference between members and non-members.",
+              "description": "Number of GConfs' members that will be at the conference",
               "default": 0,
               "examples": [
                 10
@@ -124,7 +124,7 @@
               "$id": "/properties/event_form/properties/expected_public/properties/external",
               "type": "integer",
               "title": "The External Schema.",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "Number of non-Ionis and non-GConfs people expected at the conference",
               "default": 0,
               "examples": [
                 5
@@ -142,7 +142,7 @@
           "$id": "/properties/video/properties/streamed",
           "type": "boolean",
           "title": "The Streamed Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "Is/was the conference streamed?",
           "default": false,
           "examples": [
             true
@@ -152,7 +152,7 @@
           "$id": "/properties/video/properties/stream_url",
           "type": ["string", "null"],
           "title": "The Stream_url Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "If the conference is to be streamed, the URL of the stream",
           "default": "",
           "examples": [
             "https://youtube.com/foo"
@@ -162,7 +162,7 @@
           "$id": "/properties/video/properties/recorded",
           "type": "boolean",
           "title": "The Recorded Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "Is/was the conference recorded?",
           "default": false,
           "examples": [
             true
@@ -172,7 +172,7 @@
           "$id": "/properties/video/properties/record_url",
           "type": "string",
           "title": "The Record_url Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "If the conference has been recorded, the URL of the record",
           "default": "",
           "examples": [
             "https://youtube.com/bar"
@@ -197,7 +197,7 @@
             "Custom"
           ],
           "title": "The Type Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "Type of location when the conference takes place",
           "default": "",
           "examples": [
             "Epita KB"
@@ -210,7 +210,7 @@
             "$id": "/properties/location/properties/rooms/items",
             "type": "string",
             "title": "The 0 Schema.",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "Rooms booked for the conference",
             "default": "",
             "examples": [
               "Amphi 4"
@@ -226,7 +226,7 @@
       "$id": "/properties/handson",
       "type": "boolean",
       "title": "The Handson Schema.",
-      "description": "An explanation about the purpose of this instance.",
+      "description": "Is there a hands-on (TP) for this conference?",
       "default": false,
       "examples": [
         true
@@ -240,7 +240,7 @@
           "$id": "/properties/handson_details/properties/start",
           "type": "string",
           "title": "The Start Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "Date and time when the hands-on begins",
           "default": "",
           "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
           "examples": [
@@ -251,7 +251,7 @@
           "$id": "/properties/handson_details/properties/end",
           "type": "string",
           "title": "The End Schema.",
-          "description": "An explanation about the purpose of this instance.",
+          "description": "Date and time when the hands-on ends",
           "default": "",
           "pattern": "[0123][0-9]/[01][0-9]/20[0-9][0-9] - [0-9][0-9]:[0-9][0-9]",
           "examples": [
@@ -265,7 +265,7 @@
             "$id": "/properties/handson_details/properties/rooms/items",
             "type": "string",
             "title": "The 0 Schema.",
-            "description": "An explanation about the purpose of this instance.",
+            "description": "Rooms booked for the hands-on",
             "default": "",
             "examples": [
               "SM Cisco"
