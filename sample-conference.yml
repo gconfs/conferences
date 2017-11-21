@@ -24,7 +24,8 @@ video:
   record_url: "https://youtube.com/bar"
 location:
   type: "Epita KB" # May also be "Epita VJ" or "Custom"
-  room: "Amphi 4"
+  rooms:
+    - "Amphi 4"
 handson:  True
 handson_details:
   start:  "31/12/2018 - 23:00"
