@@ -1,0 +1,37 @@
+---
+title:  "C#"
+#short:  "BDSP"
+#start:  "31/12/2018 - 20:00"
+#end:    "31/12/2018 - 23:00"
+respo:  "multun"
+speakers:
+  - 'Robin "CueBrick" Le Bihan'
+  - 'Thomas "Tetra" Delecroix'
+  - 'Cyril "Inaxis" Olivier'
+#abstract: >
+#  Cette conférence bla
+#  bla
+#  bla
+#event_form:
+#  description:  "Conférence adressée aux sups : bien démarrer son projet"
+#  expected_public:
+#    ionis:    300
+#    members:  10
+#    external: 5
+video:
+  streamed: True
+#  stream_url: "https://youtube.com/foo"
+  recorded: True
+#  record_url: "https://youtube.com/bar"
+git_repo: "csharp-2017" # On github.com/gconfs-conferences
+location:
+  type: "Epita VJ"
+  room: "VA 204"
+handson:  True
+handson_details:
+#  start:  "31/12/2018 - 23:00"
+#  end:    "01/01/2019 - 02:00"
+#  rooms:
+#    - "SM Cisco"
+#    - "SM Pasteur"
+  git_repo: "csharp-workshop-2017"
