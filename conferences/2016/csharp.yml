@@ -7,7 +7,7 @@ respo:  "turfu"
 speakers:
   - "Martin 'reaper' Leydier"
   - "Gabriel 'Hazriel' Bertini"
-  - "Yohann 'shepard' Léon"
+  # - "Yohann 'shepard' Léon" # Should have been a speaker but had to cancel
   - "Meven 'mevouc' Courouble"
 abstract: >
   "TODO"
