@@ -150,7 +150,7 @@
         },
         "stream_url": {
           "$id": "/properties/video/properties/stream_url",
-          "type": "string",
+          "type": ["string", "null"],
           "title": "The Stream_url Schema.",
           "description": "An explanation about the purpose of this instance.",
           "default": "",
