@@ -112,9 +112,9 @@
             },
             "members": {
               "$id": "/properties/event_form/properties/expected_public/properties/members",
-              "type": "integer",
+              "type": ["integer", "null"],
               "title": "The Members Schema.",
-              "description": "An explanation about the purpose of this instance.",
+              "description": "An explanation about the purpose of this instance. This can be null since in 2013 there was no difference between members and non-members.",
               "default": 0,
               "examples": [
                 10
