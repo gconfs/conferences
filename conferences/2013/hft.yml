@@ -25,8 +25,8 @@ video:
   stream_url: null # Too old, not found :(
   recorded: True
   record_url: "https://www.youtube.com/watch?v=mhGAuNy2lso"
-#git_repo: "bdsp-2018" # On github.com/gconfs-conferences
 location:
   type: "Epita KB"
-  room: "Amphi 1"
+  rooms:
+    - "Amphi 4"
 handson:  False
