@@ -18,8 +18,7 @@ event_form:
     members:  10
     external: 0
 video:
-#  streamed: True
-#  stream_url: "https://youtube.com/foo"
+  streamed: False # Got technical problems so we were unable to stream :(
   recorded: False # Actually it was recorded, but the sound was too bad :(
 location:
   type: "Epita VJ"
