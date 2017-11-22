@@ -12,7 +12,7 @@ speakers:
 abstract: >
   "Conférence d'introduction au langage C# annuelle pour les Sups"
 event_form:
-  description:  "Conférence d'introduction au langage C# suivi d'un TP"
+  description:  "Conférence d'introduction au langage C# suivie d'un TP"
   expected_public:
     ionis:    180
     members:  10
