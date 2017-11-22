@@ -10,7 +10,7 @@ speakers:
   # - "Yohann 'shepard' Léon" # Should have been a speaker but had to cancel
   - "Meven 'mevouc' Courouble"
 abstract: >
-  "TODO"
+  "Conférence d'introduction au langage C# annuelle pour les Sups"
 event_form:
   description:  "Conférence d'introduction au langage C# suivi d'un TP"
   expected_public:
