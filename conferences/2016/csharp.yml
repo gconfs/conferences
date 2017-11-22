@@ -22,15 +22,16 @@ video:
   recorded: False # Actually it was recorded, but the sound was too bad :(
 location:
   type: "Epita VJ"
-  room: "VA 208"
+  rooms:
+    - "VA 208"
+    - "VA 105" # ?
+    - "VA 204" # ?
 handson:  True
 handson_details:
   start:  "18/11/2016 - 21:00"
   end:    "19/11/2016 - 06:00"
   rooms:
-    - "VA 105" # VJN ?
-    - "VA 204" # VJN ?
-    - "VA 311"
+    - "VA 311" # VJN
     - "VA 302" # TP
     - "VA 303" # TP
     - "VA 304" # TP
