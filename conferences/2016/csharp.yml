@@ -1,0 +1,39 @@
+---
+title:  "C#"
+short:  null
+start:  "18/11/2016 - 18:30"
+end:    "18/11/2016 - 21:00"
+respo:  "turfu"
+speakers:
+  - "Martin 'reaper' Leydier"
+  - "Gabriel 'Hazriel' Bertini"
+  # - "Yohann 'shepard' Léon" # Should have been a speaker but had to cancel
+  - "Meven 'mevouc' Courouble"
+abstract: >
+  "Conférence d'introduction au langage C# annuelle pour les Sups"
+event_form:
+  description:  "Conférence d'introduction au langage C# suivie d'un TP"
+  expected_public:
+    ionis:    180
+    members:  10
+    external: 0
+video:
+  streamed: False # Got technical problems so we were unable to stream :(
+  recorded: False # Actually it was recorded, but the sound was too bad :(
+location:
+  type: "Epita VJ"
+  rooms:
+    - "VA 208"
+    - "VA 105" # ? From event form
+    - "VA 204" # ? From event form
+handson:  True
+handson_details:
+  start:  "18/11/2016 - 21:00"
+  end:    "19/11/2016 - 06:00"
+  rooms:
+    - "VA 311" # VJN
+    - "VA 302" # TP
+    - "VA 303" # TP
+    - "VA 304" # TP
+    - "VA 305" # TP
+    - "VA 306" # TP
