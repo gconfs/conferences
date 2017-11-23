@@ -24,8 +24,8 @@ location:
   type: "Epita VJ"
   rooms:
     - "VA 208"
-    - "VA 105" # ?
-    - "VA 204" # ?
+    - "VA 105" # ? From event form
+    - "VA 204" # ? From event form
 handson:  True
 handson_details:
   start:  "18/11/2016 - 21:00"
