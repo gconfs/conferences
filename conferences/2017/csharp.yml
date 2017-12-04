@@ -18,9 +18,9 @@ event_form:
     external: 0
 video:
   streamed: True
-#  stream_url: "https://youtube.com/foo"
+  stream_url: null
   recorded: True
-#  record_url: "https://youtube.com/bar"
+  record_url: "https://www.youtube.com/watch?v=WQuqm71J-fo"
 git_repo: "csharp-2017" # On github.com/gconfs-conferences
 location:
   type: "Epita VJ"
