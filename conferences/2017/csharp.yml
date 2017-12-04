@@ -27,9 +27,13 @@ location:
   room: "VA 204"
 handson:  True
 handson_details:
-#  start:  "31/12/2018 - 23:00"
-#  end:    "01/01/2019 - 02:00"
-#  rooms:
-#    - "SM Cisco"
-#    - "SM Pasteur"
+  start:  "24/11/2017 - 23:00"
+  end:    "25/11/2017 - 02:00"
+  rooms:
+    - "VA 302"
+    - "VA 303"
+    - "VA 304"
+    - "VA 305"
+    - "VA 306"
+    - "VA 311"
   git_repo: "csharp-workshop-2017"
