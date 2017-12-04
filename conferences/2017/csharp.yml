@@ -8,16 +8,14 @@ speakers:
   - 'Robin "CueBrick" Le Bihan'
   - 'Thomas "Tetra" Delecroix'
   - 'Cyril "Inaxis" Olivier'
-#abstract: >
-#  Cette conférence bla
-#  bla
-#  bla
-#event_form:
-#  description:  "Conférence adressée aux sups : bien démarrer son projet"
-#  expected_public:
-#    ionis:    300
-#    members:  10
-#    external: 5
+abstract: >
+  "Conférence d'introduction au langage C# annuelle pour les Sups"
+event_form:
+  description:  "Conférence C# à destination des Sups, organisée par des ACDC"
+  expected_public:
+    ionis:    120
+    members:  6
+    external: 0
 video:
   streamed: True
 #  stream_url: "https://youtube.com/foo"
