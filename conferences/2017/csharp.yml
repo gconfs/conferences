@@ -1,8 +1,8 @@
 ---
 title:  "C#"
 short:  null
-#start:  "31/12/2018 - 20:00"
-#end:    "31/12/2018 - 23:00"
+start:  "24/11/2017 - 19:00"
+end:    "24/11/2017 - 23:00"
 respo:  "multun"
 speakers:
   - 'Robin "CueBrick" Le Bihan'
