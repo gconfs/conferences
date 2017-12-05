@@ -21,7 +21,6 @@ video:
   stream_url: null
   recorded: True
   record_url: "https://www.youtube.com/watch?v=WQuqm71J-fo"
-git_repo: "csharp-2017" # On github.com/gconfs-conferences
 location:
   type: "Epita VJ"
   room: "VA 204"
@@ -36,4 +35,3 @@ handson_details:
     - "VA 305"
     - "VA 306"
     - "VA 311"
-  git_repo: "csharp-workshop-2017"
