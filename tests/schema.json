@@ -222,22 +222,22 @@
         "type"
       ]
     },
-    "handson": {
-      "$id": "/properties/handson",
+    "hands_on": {
+      "$id": "/properties/hands_on",
       "type": "boolean",
-      "title": "The Handson Schema.",
+      "title": "The hands-on Schema.",
       "description": "Is there a hands-on (TP) for this conference?",
       "default": false,
       "examples": [
         true
       ]
     },
-    "handson_details": {
-      "$id": "/properties/handson_details",
+    "hands_on_details": {
+      "$id": "/properties/hands_on_details",
       "type": "object",
       "properties": {
         "start": {
-          "$id": "/properties/handson_details/properties/start",
+          "$id": "/properties/hands_on_details/properties/start",
           "type": "string",
           "title": "The Start Schema.",
           "description": "Date and time when the hands-on begins",
@@ -248,7 +248,7 @@
           ]
         },
         "end": {
-          "$id": "/properties/handson_details/properties/end",
+          "$id": "/properties/hands_on_details/properties/end",
           "type": "string",
           "title": "The End Schema.",
           "description": "Date and time when the hands-on ends",
@@ -259,10 +259,10 @@
           ]
         },
         "rooms": {
-          "$id": "/properties/handson_details/properties/rooms",
+          "$id": "/properties/hands_on_details/properties/rooms",
           "type": "array",
           "items": {
-            "$id": "/properties/handson_details/properties/rooms/items",
+            "$id": "/properties/hands_on_details/properties/rooms/items",
             "type": "string",
             "title": "The 0 Schema.",
             "description": "Rooms booked for the hands-on",
@@ -285,6 +285,6 @@
     "abstract",
     "video",
     "location",
-    "handson"
+    "hands_on"
   ]
 }

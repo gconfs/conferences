@@ -41,8 +41,8 @@ location:
   rooms:
     - "VA 204"
     - "VA 205"
-handson:  True
-handson_details:
+hands_on:  True
+hands_on_details:
   start:  "11/10/2013 - 23:00"
   end:    "12/10/2013 - 08:00"
   rooms:

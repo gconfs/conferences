@@ -29,4 +29,4 @@ location:
   type: "Epita KB"
   rooms:
     - "Amphi 4"
-handson:  False
+hands_on:  False

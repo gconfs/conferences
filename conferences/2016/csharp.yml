@@ -26,8 +26,8 @@ location:
     - "VA 208"
     - "VA 105" # ? From event form
     - "VA 204" # ? From event form
-handson:  True
-handson_details:
+hands_on:  True
+hands_on_details:
   start:  "18/11/2016 - 21:00"
   end:    "19/11/2016 - 06:00"
   rooms:
