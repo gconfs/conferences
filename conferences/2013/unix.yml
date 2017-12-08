@@ -40,7 +40,7 @@ abstract: >
   [1]: Association Villejuif Nights
   [2]: Association de robotique de l'EPITA"
 event_form:
-  description:  "Conférence sur le trading haute fréquence par un ancien Epita"
+  description:  "Conférence Unix à destination des Sups et Spés"
   expected_public:
     ionis:    300
     members:  null # This difference didn't exist at that time
