@@ -55,7 +55,4 @@ handson:  True
 handson_details:
   start:  "18/10/2013 - 19:30"
   end:    "18/10/2013 - 00:00"
-  #rooms:
-  # - "VA 302"
-  #  - "VA 303"
-  #  - "VA 306"
+  rooms: # Empty, it was too long ago, couldn't find the information anymore
