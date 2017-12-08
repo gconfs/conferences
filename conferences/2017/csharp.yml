@@ -5,11 +5,11 @@ start:  "24/11/2017 - 19:00"
 end:    "24/11/2017 - 23:00"
 respo:  "multun"
 speakers:
-  - 'Robin "CueBrick" Le Bihan'
-  - 'Thomas "Tetra" Delecroix'
-  - 'Cyril "Inaxis" Olivier'
+  - "Robin 'CueBrick' Le Bihan"
+  - "Thomas 'Tetra' Delecroix"
+  - "Cyril 'Inaxis' Olivier"
 abstract: >
-  "Conférence d'introduction au langage C# annuelle pour les Sups"
+  Conférence d'introduction au langage C# annuelle pour les Sups
 event_form:
   description:  "Conférence C# à destination des Sups, organisée par des ACDC"
   expected_public:
