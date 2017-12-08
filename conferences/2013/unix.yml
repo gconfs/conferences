@@ -47,9 +47,7 @@ event_form:
     external: 5
 video:
   streamed: False
-  #stream_url: "https://youtube.com/foo"
-  recorded: False
-  #record_url: "https://www.youtube.com/watch?v=mhGAuNy2lso"
+  recorded: False # Hardware failed :(
 location:
   type: "Epita VJ"
   room: "VA 204"
